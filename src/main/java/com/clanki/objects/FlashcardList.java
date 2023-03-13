@@ -3,7 +3,7 @@ package com.clanki.objects;
 import java.util.ArrayList;
 
 public class FlashcardList {
-    private final ArrayList<Flashcard> flashcards;
+    private ArrayList<Flashcard> flashcards;
 
     public FlashcardList() {
         this.flashcards = new ArrayList<>();
